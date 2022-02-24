@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">My Practice 1</string>
+    <string name="seleccion">Select a formula</string>
+    <string name="ingrese_dato_1">Enter data 1</string>
+    <string name="numero_1">Number</string>
+    <string name="ingrese_dato_2">Enter data 2</string>
+    <string name="numero_2">Number</string>
+    <string name="aqui_va_el_resultado">Here is the result</string>
+    <string name="ingresar_formula">Please enter a formula</string>
+    <string name="area_triangulo">The area of the triangle is</string>
+    <string name="no_area">Unable to calculate its area</string>
+    <string name="area_rectangulo">The area of the rectangle is</string>
+    <string name="volumen_cilindro">The volume of the cylinder is</string>
+    <string name="no_volumen">No se puede calcular su volumen</string>
+    <string name="ingrese_numero">Volume cannot be calculated</string>
+    <string name="requiere_numero">A number is required</string>
+</resources>

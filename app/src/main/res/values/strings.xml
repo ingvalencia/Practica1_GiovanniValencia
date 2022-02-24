@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Mi Práctica 1</string>
+    <string name="seleccion">Seleccione una fórmula</string>
+    <string name="ingrese_dato_1">Ingrese dato 1</string>
+    <string name="numero_1">Número</string>
+    <string name="ingrese_dato_2">Ingrese dato 2</string>
+    <string name="numero_2">Número</string>
+    <string name="aqui_va_el_resultado">Aquí va el resultado</string>
+    <string name="ingresar_formula">Por favor ingrese una formula</string>
+    <string name="area_triangulo">El área del triángulo es</string>
+    <string name="no_area">No se puede calcular su área</string>
+    <string name="area_rectangulo">El área del rectángulo es</string>
+    <string name="volumen_cilindro">El volumen del cilindro es</string>
+    <string name="no_volumen">No se puede calcular su volumen</string>
+    <string name="ingrese_numero">Por favor ingrese un número</string>
+    <string name="requiere_numero">Se requiere un número</string>
+
+</resources>
