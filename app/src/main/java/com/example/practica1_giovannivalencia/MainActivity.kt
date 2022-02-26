@@ -30,6 +30,7 @@ class MainActivity : AppCompatActivity() {
                 //pasando el tiempo que nos transfiera a mi Principal Activity
                 val intent = Intent(applicationContext, PrincipalActivity::class.java).apply{}
                 startActivity(intent)
+                finish()
             }
 
         }.start()

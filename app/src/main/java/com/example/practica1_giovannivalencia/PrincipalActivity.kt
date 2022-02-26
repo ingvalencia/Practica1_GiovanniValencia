@@ -1,13 +1,12 @@
 package com.example.practica1_giovannivalencia
 
-import android.R
+import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import android.R
 import android.widget.AdapterView
 import android.widget.ArrayAdapter
 import android.widget.Toast
-//import android.widget.ArrayAdapter
-import androidx.appcompat.app.AppCompatActivity
 import com.example.practica1_giovannivalencia.databinding.ActivityPrincipalBinding
 import java.util.*
 
@@ -27,8 +26,8 @@ class PrincipalActivity : AppCompatActivity(), AdapterView.OnItemSelectedListene
         aaFormulas = ArrayAdapter<String>(this,
             R.layout.simple_spinner_dropdown_item)
 
-        aaFormulas.addAll(Arrays.asList("Seleccione...","área del triángulo",
-            "área del rectángulo", "volumen del cilindro" ))
+        aaFormulas.addAll(Arrays.asList("Seleccione...","Área del Triángulo",
+            "Área del Rectángulo", "Volumen del Cilindro" ))
 
         with(binding){
 
@@ -58,7 +57,6 @@ class PrincipalActivity : AppCompatActivity(), AdapterView.OnItemSelectedListene
         bandera(selecciona)
         /***************************************************/
 
-
     }
 
     override fun onNothingSelected(parent: AdapterView<*>?) {
@@ -72,10 +70,14 @@ class PrincipalActivity : AppCompatActivity(), AdapterView.OnItemSelectedListene
 
         if (digito == 0){
 
-            Toast.makeText(this, "Por favor ingrese una formula.",
+            Toast.makeText(this@PrincipalActivity, "Por favor ingrese una formula.",
                 Toast.LENGTH_SHORT).show()
+            //Toast.makeText(this@PrincipalActivity, getString(R.string.), Toast.LENGTH_SHORT).show()
 
         }else if(digito == 1){
+
+            Toast.makeText(this@PrincipalActivity, "Dato 1 es la base, Dato 2 es la altura.",
+                Toast.LENGTH_SHORT).show()
 
             limpiarElementos()
             binding.imgvTriangulo.visibility = View.VISIBLE
@@ -83,11 +85,17 @@ class PrincipalActivity : AppCompatActivity(), AdapterView.OnItemSelectedListene
 
         }else if(digito == 2){
 
+            Toast.makeText(this@PrincipalActivity, "Dato 1 es la base, Dato 2 es la altura.",
+                Toast.LENGTH_SHORT).show()
+
             limpiarElementos()
             binding.imgRectanfulo.visibility = View.VISIBLE
             mostrarElementos()
         }
         else if(digito == 3){
+
+            Toast.makeText(this@PrincipalActivity, "Dato 1 es el radio, Dato 2 es la altura.",
+                Toast.LENGTH_SHORT).show()
 
             limpiarElementos()
             binding.imgvcilindro.visibility = View.VISIBLE

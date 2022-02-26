@@ -12,7 +12,10 @@
     <string name="no_area">Unable to calculate its area</string>
     <string name="area_rectangulo">The area of the rectangle is</string>
     <string name="volumen_cilindro">The volume of the cylinder is</string>
-    <string name="no_volumen">No se puede calcular su volumen</string>
+    <string name="no_volumen">Volume cannot be calculated</string>
     <string name="ingrese_numero">Volume cannot be calculated</string>
     <string name="requiere_numero">A number is required</string>
+    <string name="valor_datos_triangulo">Data 1 is the base, Data 2 is the height</string>
+    <string name="valor_datos_rectangulo">Data 1 is the base, Data 2 is the height</string>
+    <string name="valor_datos_cilindro">Data 1 is the radius, Data 2 is the height</string>
 </resources>

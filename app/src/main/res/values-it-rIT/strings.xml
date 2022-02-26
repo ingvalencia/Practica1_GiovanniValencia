@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mi Práctica 1</string>
+    <string name="seleccion">Seleziona una formula</string>
+    <string name="ingrese_dato_1">Inserisci i dati 1</string>
+    <string name="numero_1">Numero</string>
+    <string name="ingrese_dato_2">Inserisci i dati 2</string>
+    <string name="numero_2">Numero</string>
+    <string name="aqui_va_el_resultado">ecco il risultato</string>
+    <string name="ingresar_formula">Inserisci una formula</string>
+    <string name="area_triangulo">L\'area del triangolo è</string>
+    <string name="no_area">Impossibile calcolare la sua area</string>
+    <string name="area_rectangulo">L\'area del rettangolo è</string>
+    <string name="volumen_cilindro">El volumen del cilindro es</string>
+    <string name="no_volumen">Il volume non può essere calcolato</string>
+    <string name="ingrese_numero">Per favore inserisci un numero</string>
+    <string name="requiere_numero">È richiesto un numero</string>
+    <string name="valor_datos_triangulo">Dati 1 è la base, Dati 2 è l\'altezza</string>
+    <string name="valor_datos_rectangulo">Dati 1 è la base, Dati 2 è l\'altezza</string>
+    <string name="valor_datos_cilindro">Dati 1 è il raggio, Dati 2 è l\'altezza</string>
+</resources>

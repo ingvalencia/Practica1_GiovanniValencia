@@ -14,5 +14,8 @@
     <string name="no_volumen">No se puede calcular su volumen</string>
     <string name="ingrese_numero">Por favor ingrese un número</string>
     <string name="requiere_numero">Se requiere un número</string>
+    <string name="valor_datos_triangulo">Dato 1 es la base, Dato 2 es la altura</string>
+    <string name="valor_datos_rectangulo">Dato 1 es la base, Dato 2 es la altura</string>
+    <string name="valor_datos_cilindro">Dato 1 es el radio, Dato 2 es la altura</string>
 
 </resources>
